@@ -2,7 +2,7 @@
 
 I use CHIRP on my OpenBSD Lenovo laptop to program my Baefeng AR-5RM. Often I just want to do a quick update to memory and I prefer using the command line for this instead of the UI. These 3 scripts, `download.py`, `upload.py`, and `replace.py`, covers everything I need.
 
-Many things to the [CHIRP project](https://www.chirpmyradio.com/projects/chirp/wiki/Home).
+Many thanks to the [CHIRP project](https://www.chirpmyradio.com/projects/chirp/wiki/Home).
 
 ### download.py
 Download radio image file.
