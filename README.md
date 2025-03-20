@@ -2,7 +2,7 @@
 
 I use CHIRP on my OpenBSD Lenovo laptop to program my Baofeng AR-5RM. Often I just want to do a quick update to memory and I prefer using the command line for this instead of the UI. These 3 scripts, `download.py`, `upload.py`, and `replace.py` covers everything I need.
 
-Many things to the [CHIRP project](https://www.chirpmyradio.com/projects/chirp/wiki/Home).
+Many thanks to the [CHIRP project](https://www.chirpmyradio.com/projects/chirp/wiki/Home).
 
 ### download.py
 Download radio image file.
@@ -23,7 +23,7 @@ Upload radio image file.
     upload.py: error: the following arguments are required: --image
 
 ### replace.py
-Replace radio memory image with a CSV freqency list.
+Replace radio memory image with a CSV frequency list.
 
 usage: upload.py [-h] --image IMAGE [-s SERIAL]
 
@@ -34,9 +34,9 @@ usage: upload.py [-h] --image IMAGE [-s SERIAL]
                              Name of radio image file.
 
 ### Example
-From the CHIRP UI, Radio/Query Source/RepeaterBook, download repeaters in your area and save to a CSV file. Then run:
+From the CHIRP UI, `Radio/Query Source/RepeaterBook`, download repeaters in your area and save to a CSV file. Then run:
 
     python replace.py --csv localrepeaters.csv --serial /dev/cuaU0
 
-This downloads the radio image (unless existing image file specified) and replaces the memory with the CSV file.
+This downloads a temporary radio image (unless existing image file specified) and replaces the memory with the CSV file.
 
