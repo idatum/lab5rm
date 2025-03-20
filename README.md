@@ -1,6 +1,6 @@
 ## Python scripts that use [CHIRP](https://github.com/kk7ds/chirp) to program a Baefeng AR-5RM radio from the command line.
 
-I use CHIRP on my OpenBSD Lenovo laptop to program my Baefeng AR-5RM. Often I just want to do a quick update to memory and I prefer using the command line for this instead of the UI. These 3 scripts, `download.py`, `upload.py`, and `replace.py` covers everything I need.
+I use CHIRP on my OpenBSD Lenovo laptop to program my Baefeng AR-5RM. Often I just want to do a quick update to memory and I prefer using the command line for this instead of the UI. These 3 scripts, `download.py`, `upload.py`, and `replace.py`, covers everything I need.
 
 Many things to the [CHIRP project](https://www.chirpmyradio.com/projects/chirp/wiki/Home).
 
@@ -34,9 +34,9 @@ usage: upload.py [-h] --image IMAGE [-s SERIAL]
                              Name of radio image file.
 
 ### Example
-From the CHIRP UI, Radio/Query Source/RepeaterBook, download repeaters in your area and save to a CSV file. Then run:
+From the CHIRP UI, `Radio/Query Source/RepeaterBook`, download repeaters in your area and save to a CSV file. Then run:
 
     python replace.py --csv localrepeaters.csv --serial /dev/cuaU0
 
-This downloads the radio image (unless existing image file specified) and replaces the memory with the CSV file.
+This downloads a temporary radio image (unless existing image file specified) and replaces the memory with the CSV file.
 
