@@ -23,7 +23,7 @@ Upload radio image file.
     upload.py: error: the following arguments are required: --image
 
 ### replace.py
-Replace radio memory image with a CSV freqency list.
+Replace radio memory image with a CSV frequency list.
 
 usage: upload.py [-h] --image IMAGE [-s SERIAL]
 
