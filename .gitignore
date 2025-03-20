@@ -1,0 +1,5 @@
+*.img
+*.csv
+__pycache__/
+*.swp
+*.gz
