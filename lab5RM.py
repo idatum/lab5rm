@@ -1,4 +1,4 @@
-"""Baefeng AR-5RM specific library."""
+"""Baofeng AR-5RM specific library."""
 import logging
 import argparse
 import serial
@@ -51,5 +51,5 @@ def download(image_filename: str, s: serial.Serial):
     radio.save(image_filename)
 
 if __name__ == '__main__':
-    print('Library specifically for a Baefeng AR-5RM.')
+    print('Library specifically for a Baofeng AR-5RM.')
 

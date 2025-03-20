@@ -1,6 +1,6 @@
-## Python scripts that use [CHIRP](https://github.com/kk7ds/chirp) to program a Baefeng AR-5RM radio from the command line.
+## Python scripts that use [CHIRP](https://github.com/kk7ds/chirp) to program a Baofeng AR-5RM radio from the command line.
 
-I use CHIRP on my OpenBSD Lenovo laptop to program my Baefeng AR-5RM. Often I just want to do a quick update to memory and I prefer using the command line for this instead of the UI. These 3 scripts, `download.py`, `upload.py`, and `replace.py` covers everything I need.
+I use CHIRP on my OpenBSD Lenovo laptop to program my Baofeng AR-5RM. Often I just want to do a quick update to memory and I prefer using the command line for this instead of the UI. These 3 scripts, `download.py`, `upload.py`, and `replace.py` covers everything I need.
 
 Many things to the [CHIRP project](https://www.chirpmyradio.com/projects/chirp/wiki/Home).
 
